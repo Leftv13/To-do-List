@@ -1,43 +1,56 @@
+
+
 body{
   justify-content: center;
   width: 100%;
   padding: 0px;
   margin: 0px;
-  background-color: #0288a0;
+  background-color: #004C64;
   color: white;
 }
+
 
 h1{
   margin: 0.5cm;
   padding: 1rem;
-  background-color: #0f6a7a;
+  background-color: #01728b;
   text-align: center;
+  border-radius: 10px;
 }
 
+
 .task-frame{
-  background-color: #127181 ;
+  
+  background-color: #0283a0;
   padding: 10px;
   margin: 0.5cm;
+  border-radius: 10px;
 }
+
+
 .tasks{
+  
   display: flex;
   font-size: 20px;
   margin-top: 0px;
   margin: 0.5cm;
   gap: 10px;
+  border-radius: 10px;
 }
+
 
 .task{
   
-  padding-left: 20px;
   width: 100%;
-  background-color: #0288a0;
+  background-color: #01728b;
   border-radius: 10px;
 }
+
 
 li{
   list-style-type: none;
 }
+
 
 footer{
   padding: 0px;
@@ -47,11 +60,13 @@ footer{
   text-align: center;
 }
 
+
 .Link-Container{
   display: flex;
   justify-content: center;
   margin-left: 0px;
 }
+
 
 .Links{
   gap: 50px;
@@ -60,20 +75,26 @@ footer{
   padding: 10px;
 }
 
+
 .footer-img{
   height: 50px;
   width: 50px;
 }
 
+
 .Counter{
+  margin: 0.5cm;
+ 
   display: flex;
   justify-content: space-evenly;
-  background-color: #0f6a7a;
+  background-color: #01728b;
+  border-radius: 10px;
 }
 
+
 .Counter-son{
-  color: rgb(38, 36, 36);
-  background-color: #7cc7d4;
+  color: rgb(34, 33, 33);
+  background-color: #11a8ca;
   padding: 10px;
   margin: 0.5cm;
   border-radius: 10px;
@@ -81,13 +102,14 @@ footer{
   text-align: center;
 }
 
+
 button{
   font-size: 1rem;
   padding: 0;
   border: none;
   border-radius: 0.5rem;
   padding: 1rem;
-  background-color: rgb(172, 226, 230);
+  background-color: #0291b1;
   color: aliceblue;
 
 }
@@ -100,36 +122,40 @@ form {
   width: 100%;
 }
 
+
 .input {
   display: flex;
   justify-content: center;
   width: 100%;
 }
+
+
 .ForCon{
-  
+  margin: 0.5cm;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
- gap: 10px ;
+  width: 97.2%;
+  gap: 10px ;
 }
+
+
 .ForTsk{
   margin: 5px;
   padding: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #168ca1;
+  background-color: #07a9cd;
   border-radius: 10px;
 
 }
 
 
 input{
- 
-  background-color: #168ca1;
+  border-style: none;
+  background-color: #01728b;
   border-radius: 10px;
-  border-color: #0f6a7a;
   padding: 20px;
   width: 100%;
 }
@@ -139,21 +165,24 @@ input{
   color: white;
 }
 
+
 .BtImg{
   width: 1cm;
   height: 1cm;
 }
+
+
 .tskbtn{
   
  max-width: 2cm;
 }
 
 
-
 ul{
   margin: 0;
   padding: 0;
 }
+
 
 @media  (max-width: "500px") {
  body{
@@ -162,9 +191,14 @@ ul{
   flex-direction: column;
 
 }
+
+
 }
 
-
 button:hover{
-  background-color: rgb(110, 202, 207);
+  background-color: #037c9d;
+}
+
+.ForTsk button:hover{
+  background-color: #09bddd;
 }
