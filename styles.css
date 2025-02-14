@@ -18,6 +18,14 @@ h1{
   border-radius: 10px;
 }
 
+.error{
+  margin-left: 2%; 
+  color: rgb(190, 9, 9);
+  background-color: #01728b;
+  border-radius: 10px;
+  padding: 5px;
+  max-width: fit-content;
+}
 
 .task-frame{
   
