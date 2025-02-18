@@ -21,7 +21,7 @@ h1{
 .error{
   margin-left: 2%; 
   color: rgb(190, 9, 9);
-  background-color: #01728b;
+  background-color: #dbe6e8;
   border-radius: 10px;
   padding: 5px;
   max-width: fit-content;
@@ -117,7 +117,7 @@ button{
   border: none;
   border-radius: 0.5rem;
   padding: 1rem;
-  background-color: #0291b1;
+  background-color: #d5d7d7;
   color: aliceblue;
 
 }
@@ -192,8 +192,9 @@ ul{
 }
 
 
-@media  (max-width: "500px") {
+@media  (max-width: "900px") {
  body{
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -204,7 +205,7 @@ ul{
 }
 
 button:hover{
-  background-color: #037c9d;
+  background-color: #b9b9b9;
 }
 
 .ForTsk button:hover{
