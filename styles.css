@@ -19,7 +19,7 @@ h1{
 }
 
 .error{
-  margin-left: 2%; 
+  margin-left: 4%; 
   color: rgb(190, 9, 9);
   background-color: #dbe6e8;
   border-radius: 10px;
@@ -191,19 +191,6 @@ ul{
   padding: 0;
 }
 
-
-@media  (max-width: "900px") {
- body{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
-}
-
-
-}
-
 button:hover{
   background-color: #b9b9b9;
 }
@@ -211,3 +198,46 @@ button:hover{
 .ForTsk button:hover{
   background-color: #09bddd;
 }
+
+@media  (max-width: 900px) {
+  .Counter{
+      display: flex;
+      flex-direction: column;
+      font-size: 15px;
+    }
+
+    .Counter-son{
+
+      display: flex;
+      flex-direction: column;
+      padding: 0%;
+      font-size: 12px;
+      margin: 10px;
+      width: 95%;
+    }
+
+    button{
+      padding: 0.5rem;
+    }
+
+    .task-frame{
+     align-content: center;
+      }
+      .error{
+          margin-left: 5%;
+      }
+
+      .ForTsk {
+
+          padding: 6px;
+          margin-right: 5%;
+      }
+
+      .task{
+          font-size: 18px;
+      }
+
+      footer{
+          font-size: 15px;
+      }
+  }
